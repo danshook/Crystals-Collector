@@ -13,6 +13,10 @@ body {
   text-align: center;
 }
 
+.col-sm-4 {
+  font-family: "Caesar Dressing", cursive;
+}
+
 .container-fluid {
   background-image: url("../images/1.jpg");
   height: 100%;
@@ -23,12 +27,21 @@ body {
   bottom: 0%;
   width: 100%;
   padding: 30px 0;
-  /* border-top: 8px solid #4aaaa5; */
   font-size: 12px;
   text-align: center;
 }
 
 #redCrystalButton {
-  clip: inherit;
-  margin-left: 20%;
+  margin-left: 17%;
+}
+#blueCrystalButton {
+  margin-left: 60px;
+}
+
+#yellowCrystalButton {
+  margin-left: 60px;
+}
+
+#greenCrystalButton {
+  margin-left: 60px;
 }

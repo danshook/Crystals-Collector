@@ -8,17 +8,22 @@
     <title>Crystals Collector</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Caesar+Dressing|Ceviche+One|Underdog" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container m-1">
+    <div class="container-fluid">
         <div class="row">
-            <h1 class="col-sm-4 border border-warning m-2">Crystals Collector!</h1>
+            <div id="banner">
+                Crystals Collector!
+            </div>
         </div>
         <div class="row">
-            <h6 class="col-sm-6 border border-secondary m-2">
+            <h6 class="col-sm-4">
+            </h6>
+            <h6 class="col-sm-4 m-2 text-white">
                 <p>You will be given a random number at the start of the game.</p>
                 <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
                     total score.
@@ -27,33 +32,42 @@
                     above your random number.</p>
                 <p>The value of each crystal is hidden from you until you click on it.</p>
                 <p>Each time when the game starts, the game will change the values of each crysrtal.</p>
+                </p>
             </h6>
         </div>
+        <img src="assets/images/3.jpg" role="button" div id="redCrystalButton">
+        </a>
+        <!-- <a class="btn btn-primary " href="# " role="button" div id="redCrystalButton">Red Crystal</a> -->
+        <a class="btn btn-primary " href="# " role="button" div id="blueCrystalButton">Blue crystal</a>
+        <a class="btn btn-primary " href="# " role="button" div id="yellowCrystalButton">Yellow crystal</a>
+        <a class="btn btn-primary " href="# " role="button" div id="greenCrystalButton">Green crystal</a>
         <div class="row">
-            <h1 class="col-sm-3 border border-success m-2">
+            <h1 class="col-sm-3 border border-success m-2 text-white">
                 <div id="targetScore"></div>
             </h1>
-            <h5 class="col-sm-2 border border-primary m-2">Wins:
+            <h5 class="col-sm-2 border border-primary m-2 text-white">Wins:
                 <span id="winner"></span>
                 <br>Losses:
                 <span id="loser"></span>
             </h5>
         </div>
-        <a class="btn btn-primary " href="# " role="button" div id="redCrystalButton">Red crystal</a>
-        <a class="btn btn-primary " href="# " role="button" div id="blueCrystalButton">Blue crystal</a>
-        <a class="btn btn-primary " href="# " role="button" div id="yellowCrystalButton">Yellow crystal</a>
-        <a class="btn btn-primary " href="# " role="button" div id="greenCrystalButton">Green crystal</a>
         <div class="row">
-            <h6 class="col-sm-2 border border-info m-2">Your total score is:
+            <h6 class="col-sm-2 border border-info m-2 text-white">Your total score is:
                 <div id="totalScore"></div>
             </h6>
         </div>
         <div class="row">
-            <h1 class="col-sm-1 border border-success m-2">
+            <h1 class="col-sm-1 border border-success m-2 text-white">
                 <div id="myScore"></div>
             </h1>
         </div>
     </div>
+    <footer>
+        <div class="row">
+            <div class="footer text-white">&copy; Copyright 2018 Daniel Shook</div>
+        </div>
+    </footer>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>

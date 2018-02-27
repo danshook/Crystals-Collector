@@ -63,7 +63,7 @@ function blueCrystalClick() {
   $("#myScore").text(myScore);
   if (myScore === targetScore) {
     alert("You Won!");
-    endGameLoser();
+    endGameWinner();
   }
   if (myScore > targetScore) {
     alert("You lose");
